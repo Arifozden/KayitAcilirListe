@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+  <script src="musteriKayit.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+  <h1>Musteri Kayit</h1>
+  <form class="form">
+    <div class="form-group">
+      <label for="isim">Isim</label>
+      <input type="text" id="isim">
+    </div>
+    <div class="form-group">
+      <label for="soyisim">Soyisim</label>
+      <input type="text" id="soyisim">
+    </div>
+    <div class="form-group">
+      <label>Araba Tipi</label>
+      <div id="arabalar"></div>
+    </div>
+    <div class="form-group">
+      <input type="button" value="Kayit" class="btn btn-primary" onclick="musteriKayit()"/>
+    </div>
+  </form>
+</div>
+</body>
+</html>
